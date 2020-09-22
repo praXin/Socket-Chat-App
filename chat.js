@@ -22,3 +22,5 @@ io.of('/admin').on('connection',(socket)=>{
     console.log('A client connected to the admin namespace');
     io.of('/admin').emit('welcome','Welcome to the admin channel');
 });
+
+//test comment
